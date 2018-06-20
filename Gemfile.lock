@@ -11,6 +11,12 @@ PATH
       rails (>= 4.0)
       useragent
 
+PATH
+  remote: /Users/arnaudvalensi/dev/forest/repos/jsonapi-serializers
+  specs:
+    jsonapi-serializers (0.14.0)
+      activesupport
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -66,8 +72,6 @@ GEM
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     json (1.8.6)
-    jsonapi-serializers (0.14.0)
-      activesupport
     jwt (1.5.4)
     loofah (2.1.1)
       crass (~> 1.0.2)
@@ -144,7 +148,7 @@ DEPENDENCIES
   byebug
   forest_liana!
   groupdate
-  jsonapi-serializers (= 0.14.0)
+  jsonapi-serializers!
   jwt
   rack-cors
   rails (= 4.2.7.1)
